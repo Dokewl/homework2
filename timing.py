@@ -1,6 +1,6 @@
 import time
 def calculate_time(func):
-""" Decorator, calculates the amount of time to run."""
+	""" Decorator, Calculates the time it takes to run. """
 	def wrapper():
 		time1 = time.time()
 		func()
@@ -10,7 +10,7 @@ def calculate_time(func):
 	return wrapper
 @calculate_time
 def sleep_time():
-""" Function to go to sleep for 2 seconds."""
+	""" Function that makes the program sleep for 2 seconds. """
 	time.sleep(2)
 if __name__ == '__main__':
 	myfunc()
