@@ -7,7 +7,7 @@ def calculate_time(func):
 		func()
 		print("Printed after sleep")
 	return wrapper
-@calculate_time(func)
+@calculate_time(sleep_time)
 def sleep_time():
 	time.sleep(2)
 sleep_time = calculate_time(sleep_time)
