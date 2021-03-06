@@ -8,7 +8,7 @@ def calculate_apr(principal, interest_rate, years):
 		return False
 	if years < 0:
 		return False
-	temp = (principal * (1 + interest_rate)**(years)):
+	temp = (principal * (1 + interest_rate)**(years))
 	temp = isinstance(temp, float)
 	if temp == True:
 		print(temp)
