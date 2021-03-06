@@ -17,5 +17,5 @@ def calculate_apr(principal, interest_rate, years):
 		return output
 	else:
 		return False
-calculate_apr()
+calculate_apr(principal, interest_rate, years)
 
