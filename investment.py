@@ -1,8 +1,8 @@
 
 def calculate_apr(principal, interest_rate, years):
-	principal = float(principal)
+	principal = int(principal)
 	interest_rate = float(interest_rate)
-	years = float(years)
+	years = int(years)
 	if principal < 0:
 		return False
 	if interest_rate < 0:
