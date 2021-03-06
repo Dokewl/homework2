@@ -1,4 +1,4 @@
-def calculate_apr():
+def calculate_apr(principal, interest_rate, years):
         print("Enter the amount of money you're starting with:")
         principal = int(input())
         if (principal < 0):
@@ -13,4 +13,4 @@ def calculate_apr():
              return False
         output = ((principal)*(1+interest_rate)**(years))
         print(f"The value of the investment is {output} after {years} number of years.")
-calculate_apr()
+
