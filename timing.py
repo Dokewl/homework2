@@ -1,6 +1,6 @@
 import time
-current_time = time.time()
 def calculate_time(func):
+	current_time = time.time()
 	def wrapper():
 		print("Printed immediately")
 		print(current_time)
