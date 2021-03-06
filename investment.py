@@ -10,8 +10,6 @@ def calculate_apr(principal, interest_rate, years):
 		return False
 	if (principal != isinstance(principal, int)):
 		return False
-	if (principal != isinstance(principal, float)):
-		return False
 	if (interest_rate != isinstance(interest_rate, float)):
 		return False
 	if (years != isinstance(years, int)):
