@@ -1,12 +1,18 @@
 def calculate_apr(principal, interest_rate, years):
-	principle = int(principal)
+	principal = int(principal)
 	interest_rate = float(interest_rate)
 	years = int(years)
-	if principle < 0:
+	if principal < 0:
 		return False
 	if interest_rate < 0:
 		return False
 	if years < 0:
+		return False
+	if (principal !=  isintance(principal, int):
+		return False
+	if (interest_rate != isinstance(interest_rate, float):
+		return False
+	if (years != isinstance(years, int):
 		return False
 	total = 0
 	for i in range(years):
