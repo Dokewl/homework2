@@ -11,7 +11,9 @@ def calculate_apr(principal, interest_rate, years):
 	total = 0
 	for i in range(years):
 		total = total + (principal * (1 + interest_rate))
-	if total:
+		total = float(total)
+	output = isinstance(total, float)
+	if output:
 		print(total)
 	else:
 		total = False
