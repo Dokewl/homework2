@@ -1,12 +1,12 @@
 def calculate_apr(principal, interest_rate, years):
-	p = int(principal)
-	i = float(interest_rate)
-	y = int(years)
-	if p < 0:
+	principle = int(principal)
+	interest_rate = float(interest_rate)
+	years = int(years)
+	if principle < 0:
 		return False
-	if i < 0:
+	if interest_rate < 0:
 		return False
-	if y < 0:
+	if years < 0:
 		return False
 	total = 0
 	for i in range(years):
@@ -15,5 +15,5 @@ def calculate_apr(principal, interest_rate, years):
 		print(total)
 	else:
 		total = False
-calculate_apr(p,i,y)
+
 
