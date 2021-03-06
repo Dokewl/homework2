@@ -30,4 +30,3 @@ def input_output():
 			continue
 		else:
 			break
-input_output()
